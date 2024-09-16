@@ -1,0 +1,78 @@
+.home{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.create_form input{
+  border: 5px solid black;
+  font-size: 25px;
+  width: 600px;
+  padding: 40px;
+  border-bottom: 2px solid;
+  outline: none;
+}
+.create_form input::placeholder {
+  font-size: 25px;
+  color: grey; 
+}
+.create_form button{
+  font-size: 30px;
+  padding: 40px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.task{
+  border: 8px solid black;
+  display:flex;
+  align-items: center;
+  width: 800px;
+  justify-content: space-between;
+  background-color:#db3434;
+  color:white;
+  height: 50px;
+  padding: 3px 5px 3px 5px;
+  margin-top: 2px;
+}
+.task p {
+  font-size: 20px; /* Adjust this size as needed */
+  color: white; /* Ensure the text color contrasts well with the background */
+}
+
+.checkbox{
+  display: flex;
+  align-items: center;
+}
+.line_through{
+  text-decoration: line-through;
+}
+.checkbox .icon{
+  margin-right: 20px;
+  font-size: 30px;
+}
+.task div span{
+  margin: 0px 5px 0px 5px;
+}
+.task div .icon{
+  cursor: pointer;
+  font-size: 30px;
+}
+.first {
+  background-image: url("image2.webp");
+  background-attachment: fixed;
+  background-size: cover; /* Ensures the image covers the entire area */
+  background-position: center; /* Centers the background */
+  min-height: 100vh; /* Makes sure the background covers the entire viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.todo-heading {
+  color: #db5834; /* Change the text color to a light blue */
+  border: 8px solid #2c3e50; /* Add a solid border with a dark shade */
+  padding: 10px 20px; /* Add space around the text inside the border */
+  text-align: center; /* Center the heading text */
+  display: inline-block; /* Ensure the border only surrounds the text */
+  border-radius: 8px; /* Optional: rounded corners for the border */
+  background-color: #ecf0f1; /* Optional: add background color inside the border */
+}
